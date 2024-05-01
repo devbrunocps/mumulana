@@ -1,5 +1,6 @@
 import Navbar from "../components/navbar/Navbar"
 import SectionOne from "../components/sections/section-one"
+import SectionTwo from "../components/sections/section-two"
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
             <Navbar />
             <main className="">
                 <SectionOne />
+                <SectionTwo />
             </main>
         </div>
     )

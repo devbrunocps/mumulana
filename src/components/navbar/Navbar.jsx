@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <div className="h-[6rem] flex justify-around items-center flex-wrap">
-            <div className="font-gold text-white font-medium text-3xl">START ---</div>
+            <div className="font-gold text-white font-medium text-3xl">MUMULANA COIN</div>
 
             <ul className="max-md:hidden flex text-white text-lg font-mont font-normal gap-6">
                 <li><a href="dapp">Home</a></li>
