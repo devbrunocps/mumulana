@@ -3,7 +3,7 @@ const SectionOne = () => {
         <section className="w-full h-calcvh flex justify-center items-center font-mont">
 
             <img className="bg-coin-blur absolute top-[8rem]  blur-sm w-[120px] h-[90px]" src="./assets/coin.png" alt="" />
-            <img className="bg-coin-blur absolute bottom-[1rem] blur-sm w-[120px] h-[90px]" src="./assets/coin.png" alt="" />
+            <img className="bg-coin-blur absolute -bottom-[5rem] blur-sm w-[140px] h-[100px]" src="./assets/coin.png" alt="" />
 
             <aside className="w-1/4 flex flex-col items-center">
                 <img className="bg-coin relative -top-24 -left-20 w-[220px] h-[180px] max-md:w-[120px] max-md:h-[80px]" src="./assets/coin.png" alt="" />

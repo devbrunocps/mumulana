@@ -38,7 +38,7 @@ const Navbar = () => {
             </div>
 
 
-            <ul className={ open ? "z-20 hidden max-md:flex text-white text-sm font-mont font-normal gap-6 absolute bg-neutral-900 w-full top-[6rem] flex-col p-8 opacity-100 delay-500ms transition-all duration-500 transform translate-y-0 visible animate-fade-in" : "z-20 flex text-white text-sm font-mont font-normal gap-6 absolute bg-neutral-950 w-full top-[6rem] flex-col p-8 delay-500ms transition-all duration-500 transform translate-y-[-11rem] opacity-0 visible animate-fade-in" }>
+            <ul className={ open ? "z-20 hidden max-md:flex text-white text-sm font-mont font-normal gap-6 absolute bg-neutral-900 w-full top-[6rem] flex-col p-8 opacity-100 delay-500ms transition-all duration-500 transform translate-y-0 visible animate-fade-in" : "z-20 md:hidden flex text-white text-sm font-mont font-normal gap-6 absolute bg-neutral-950 w-full top-[6rem] flex-col p-8 delay-500ms transition-all duration-500 transform translate-y-[-11rem] opacity-0 visible animate-fade-in" }>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Whitepaper</a></li>
                 <li><a href="#">Contract</a></li>

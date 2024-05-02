@@ -1,6 +1,8 @@
 import Navbar from "../components/navbar/Navbar"
 import SectionOne from "../components/sections/section-one"
 import SectionTwo from "../components/sections/section-two"
+import SectionThree from "../components/sections/section-three"
+import SectionFour from "../components/sections/section-four"
 
 const Home = () => {
     return (
@@ -9,6 +11,8 @@ const Home = () => {
             <main className="">
                 <SectionOne />
                 <SectionTwo />
+                <SectionThree />
+                <SectionFour />
             </main>
         </div>
     )
