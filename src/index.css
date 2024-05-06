@@ -21,6 +21,9 @@
     background: #555;
 }
 
+body {
+    overflow-x: hidden
+}
 
 .button-gradient {
     background-image: linear-gradient(to right, #6C00FF, #8E2DE2);

@@ -10,13 +10,13 @@ const Navbar = () => {
             <div className="font-gold text-white font-medium text-3xl">MUMULANA COIN</div>
 
             <ul className="max-md:hidden flex text-white text-lg font-mont font-normal gap-6">
-                <li><a href="dapp">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Whitepaper</a></li>
                 <li><a href="#">Contract</a></li>
             </ul>
 
             <div className="max-md:hidden flex justify-center items-center gap-4">
-                <div className="flex text-white text-2xl gap-2">
+                <div className="flex text-white text-2xl gap-2 cursor-pointer">
                     <FaTwitter className="hover:text-neutral-400 transition duration-200]" />
                     <FaTelegram className="hover:text-neutral-400" />
                 </div>
